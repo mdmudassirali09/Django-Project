@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/about.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div class="container-fluid bit">
+    <div class="box">
+        <h1>About Us</h1>
+    </div>
+    <div class="row">
+        <div class="col-4 image-container">
+            <div class="profile1">
+                <img src="{% static 'images/sadik.jpg' %}" width="100%">
+                <span><b>SADIK ALI</b>(   )</span>
+                <P>
+                    <i class="material-icons" style="color: skyblue;">&#xe8f9;</i> Cloud Infrastructure Architect<br>
+                    <i class="material-icons" style="color: skyblue;">&#xe894;</i> 12+ years global Experience<br>
+                    <i class="material-icons" style="color: skyblue;">&#xe0be;</i> shaik.sadik@gmail.com
+                    <div class="social">
+                        <a class="ico1" href="https://www.facebook.com/sadik.ali.98" target="_blank"><i style="font-size:24px" class="fa">&#xf230;</i></a>
+                        <a href="https://www.linkedin.com/in/sadik-ali-917931b" target="_blank" class="ico1"><i style="font-size:24px" class="fa">&#xf0e1;</i></a>
+                        <a href="https://www.youtube.com/" target="_blank" class="ico1"><i style="font-size:24px" class="fa">&#xf16a;</i></a>
+                    </div>
+                </P>
+            </div>
+        </div>
+        <div class="space"></div>
+        <div class="col-4 image-container">
+            <div class="profile2">
+                <img src="{% static 'images/ali.jpg' %}" width="100%" height="10%">
+                <span><b>MUDASSIR ALI</b></span>
+                <P><i class="material-icons" style="color: skyblue;">&#xe8f9;</i>Developer<br>
+                    <i class="material-icons" style="color: skyblue;">&#xe0be;</i> mdmudassirali09@gmail.com<br>
+                    <i class="material-icons" style="color: skyblue;">&#xe551;</i>9948453537<br>
+                    <div class="social">
+                        <a class="ico1" href="https://www.facebook.com/mdmudassirali09" target="_blank"><i style="font-size:24px" class="fa">&#xf230;</i></a>
+                        <a href="https://www.linkedin.com/in/mdmudassirali09/" target="_blank" class="ico1"><i style="font-size:24px" class="fa">&#xf0e1;</i></a>
+                        <a href="https://www.youtube.com/" target="_blank" class="ico1"><i style="font-size:24px" class="fa">&#xf16a;</i></a>
+                    </div>
+                </P>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,233 @@
+        /* Product Styles */
+        
+        #title {
+            color: cyan;
+            margin-top: 7px;
+            float: right;
+            flex: 2;
+            position: relative;
+            margin-left: 20px;
+        }
+        
+        #nav {
+            background: linear-gradient(to right, black 35%, rgb(85, 214, 186) 85%);
+        }
+        
+        #bar {
+            display: flex;
+            max-width: 100%;
+            align-items: center;
+        }
+        
+        .bg {
+            background-image: url('S:/WebPages/Sarugu/Static/Images/blackbg1.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            background-image: transparent;
+            width: 100%;
+        }
+        
+        .gal {
+            padding: 40px auto 40px auto;
+        }
+        
+        .bg img:hover {
+            border: 2px dashed black;
+            border-radius: 1px;
+        }
+        
+        #cart {
+            flex: 3;
+            right: 20px;
+            top: 12px;
+            position: absolute;
+        }
+        
+        #logo {
+            flex: 1;
+        }
+        
+        figcaption {
+            color: lavenderblush;
+        }
+        
+        #pname {
+            font-weight: bolder;
+            text-transform: uppercase;
+            background-color: whitesmoke;
+            text-align: center;
+            color: black;
+        }
+        
+        #price {
+            color: azure;
+            text-align: center;
+            font-weight: bold;
+            background-color: lightseagreen;
+        }
+        /* Home Styles */
+        
+        .htmlhome {
+            margin-top: 0px;
+            margin-left: 0px;
+            box-sizing: border-box;
+        }
+        
+        #navlog {
+            top: 8px;
+            margin-left: 86%;
+        }
+        
+        .home {
+            background: url("../Static/Images1/landscape.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            width: auto;
+            opacity: 1;
+        }
+        
+        .wrap {
+            background: linear-gradient(to bottom, rgb(40, 40, 42) 45%, #6b7b8c 75%);
+            opacity: 0.8;
+            height: 100vh;
+            width: 100%;
+        }
+        
+        .info p {
+            color: yellowgreen;
+            text-align: center;
+        }
+        
+        .tiles {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: center;
+        }
+        
+        .htile,
+        .atile,
+        .stile,
+        .ctile {
+            margin-top: 20%;
+        }
+        
+        .social {
+            background: rgb(39, 42, 44);
+            text-align: center;
+            display: inline block;
+            color: white;
+        }
+        
+        .ico {
+            margin-left: 80px;
+            color: white;
+        }
+        
+        .foot {
+            background: rgb(24, 53, 46);
+            width: auto;
+            height: 30px;
+            text-align: center;
+            display: inline block;
+        }
+        
+        .foot p {
+            color: white;
+        }
+        /* conact us */
+        
+        .bit {
+            margin-top: -15px;
+            background-image: url("../Static/Images1/redbg.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 101vh;
+            width: auto;
+        }
+        
+        .box {
+            background-image: linear-gradient( #2a484e, black, #2a484e);
+            margin-top: -15px;
+            width: 100%;
+        }
+        
+        .box h1 {
+            margin-top: 1%;
+            text-align: center;
+            color: rgb(66, 197, 66);
+            font-size: 10vh;
+            font-style: italic;
+            font: Arial, sans-serif;
+        }
+        
+        .image-container {
+            margin-top: 2%;
+            align-content: center;
+            text-align: center;
+            margin-left: 9%;
+        }
+        
+        .space {
+            width: 50px;
+        }
+        
+        .profile1 {
+            outline-style: dotted;
+            outline-color: rgb(209, 24, 24);
+            box-shadow: 5px 5px 5px grey;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+            /* background-image: url("D:/Sarugu/Static/Images1/flowers.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat; */
+        }
+        
+        .profile2 {
+            outline-style: dotted;
+            outline-color: rgb(189, 28, 28);
+            box-shadow: 5px 5px 5px grey;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+            /* background-image: url("D:/Sarugu/Static/Images1/flowers.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat; */
+        }
+        
+        .profile1 p {
+            text-align: left;
+            color: rgb(0, 0, 0);
+        }
+        
+        .profile2 p {
+            text-align: left;
+            color: rgb(0, 0, 0);
+        }
+        
+        span b {
+            font-size: 2em;
+            color: rgb(0, 0, 0);
+        }
+        
+        span {
+            font-size: 0.8em;
+            color: whitesmoke;
+        }
+        
+        .ico1 {
+            color: whitesmoke;
+            margin-right: 5%;
+            margin-left: 5%;
+        }
+        /* About Us */
+        
+        .body {
+            left: 0;
+            top: 0;
+            padding: 0;
+        }
